@@ -1,0 +1,33 @@
+.content-header{
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+
+    div{
+        height: 10vh;
+        background-color: #003CA5;
+        position: relative;
+
+        img{
+            object-fit: cover;
+            height: 7vh;
+            width: 7vh;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        a{
+            height: 5vh;
+            width: 5vh;
+            background: no-repeat;
+            background-image: url('/assets/img/usuario.png');
+            background-size: cover;
+            position: absolute;
+            left: 90%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

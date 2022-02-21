@@ -1,0 +1,18 @@
+// Fonts
+@font-face {
+    font-family: 'inter';
+    src: url('/assets/fonts/inter/Inter-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'layout/header';
+@import 'components/listPlayers';
+@import 'components/detailPlayer';
+@import 'layout/footer';
